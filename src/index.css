@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* 3. MENGGANTI FONT DEFAULT KE PLUS JAKARTA SANS */
+@theme {
+  --font-sans:
+    "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Base styling untuk kenyamanan ekstra (opsional) */
+@layer base {
+  body {
+    @apply antialiased text-gray-800;
+  }
+}
