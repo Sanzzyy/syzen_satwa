@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-emerald-950 text-gray-300 pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           {/* Kolom 1: Brand & Deskripsi */}
           <div className="col-span-1 md:col-span-1">
             <span className="text-2xl font-bold text-white tracking-wider mb-6 block">
@@ -88,25 +88,6 @@ const Footer = () => {
                 <span>info@tamansatwa.id</span>
               </li>
             </ul>
-          </div>
-
-          {/* Kolom 4: Newsletter */}
-          <div>
-            <h4 className="text-white font-bold mb-6">Dapatkan Berita</h4>
-            <p className="text-sm mb-4">
-              Dapatkan info promo dan jadwal feeding terbaru langsung di
-              emailmu.
-            </p>
-            <div className="flex flex-col gap-2">
-              <input
-                type="email"
-                placeholder="Email anda..."
-                className="bg-emerald-900/50 border border-emerald-800 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-emerald-500"
-              />
-              <button className="bg-emerald-600 hover:bg-emerald-500 text-white py-2 rounded-lg text-sm font-bold transition-colors">
-                Langganan
-              </button>
-            </div>
           </div>
         </div>
 
